@@ -1,0 +1,13 @@
+name: MiniAuthPlugin
+version: '${version}'
+main: ua.dscss2.miniauthplugin.paper.MiniAuthPlugin
+api-version: '1.20'
+commands:
+  MiniAuthPlugin:
+    aliases:
+      - MAP
+  register:
+    aliases:
+      - r
+      - reg
+    description: "/register password passsword"
