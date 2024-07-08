@@ -1,12 +1,12 @@
-package ua.dscss2.miniauthplugin.handler;
+package ua.dscss2.miniauthplugin.velocity.handler;
 
 import com.velocitypowered.api.network.ProtocolVersion;
 import com.velocitypowered.api.proxy.Player;
 import net.elytrium.limboapi.api.Limbo;
 import net.elytrium.limboapi.api.LimboSessionHandler;
 import net.elytrium.limboapi.api.player.LimboPlayer;
-import ua.dscss2.miniauthplugin.MiniAuthPlugin;
-import ua.dscss2.miniauthplugin.stats.Statistics;
+import ua.dscss2.miniauthplugin.velocity.MiniAuthPlugin;
+import ua.dscss2.miniauthplugin.velocity.stats.Statistics;
 
 public class LoginHandler implements LimboSessionHandler {
     private final Player proxyPlayer;
@@ -34,7 +34,7 @@ public class LoginHandler implements LimboSessionHandler {
         this.statistics = this.plugin.getStatistics();
 
         FALLING_COORDS FALLING_COORDS = new FALLING_COORDS();
-        ua.dscss2.miniauthplugin.handler.FALLING_COORDS fallingCoords = FALLING_COORDS;
+        ua.dscss2.miniauthplugin.velocity.handler.FALLING_COORDS fallingCoords = FALLING_COORDS;
         this.validX = fallingCoords.X;
         this.validY = fallingCoords.Y;
         this.validZ = fallingCoords.Z;

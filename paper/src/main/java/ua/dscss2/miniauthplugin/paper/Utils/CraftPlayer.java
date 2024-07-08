@@ -1,4 +1,4 @@
-package ua.dscss2.miniauthplugin.Utils;
+package ua.dscss2.miniauthplugin.paper.Utils;
 
 import java.util.UUID;
 

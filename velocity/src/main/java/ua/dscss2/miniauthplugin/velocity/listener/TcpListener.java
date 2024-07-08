@@ -1,4 +1,4 @@
-package ua.dscss2.miniauthplugin.listener;
+package ua.dscss2.miniauthplugin.velocity.listener;
 
 import com.velocitypowered.api.proxy.config.ProxyConfig;
 import java.net.InetAddress;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
-import ua.dscss2.miniauthplugin.MiniAuthPlugin;
+import ua.dscss2.miniauthplugin.velocity.MiniAuthPlugin;
 import net.elytrium.pcap.Pcap;
 import net.elytrium.pcap.PcapException;
 import net.elytrium.pcap.data.PcapAddress;
@@ -23,7 +23,6 @@ import net.elytrium.pcap.layer.TCP;
 import net.elytrium.pcap.layer.data.LinkType;
 import net.elytrium.pcap.layer.exception.LayerDecodeException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
-import ua.dscss2.miniauthplugin.MiniAuthPlugin;
 
 public class TcpListener {
 

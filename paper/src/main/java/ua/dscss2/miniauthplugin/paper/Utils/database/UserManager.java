@@ -1,4 +1,4 @@
-package ua.dscss2.miniauthplugin.Utils.database;
+package ua.dscss2.miniauthplugin.paper.Utils.database;
 
 import ua.dscss2.miniauthplugin.MiniAuthPlugin;
 

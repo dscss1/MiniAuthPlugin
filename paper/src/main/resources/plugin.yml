@@ -1,6 +1,6 @@
 name: MiniAuthPlugin
 version: '${version}'
-main: ua.dscss2.miniauthplugin.MiniAuthPlugin
+main: ua.dscss2.miniauthplugin.paper.MiniAuthPlugin
 api-version: '1.20'
 commands:
   MiniAuthPlugin:

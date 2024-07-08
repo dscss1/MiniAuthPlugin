@@ -1,4 +1,4 @@
-package ua.dscss2.miniauthplugin.handler;
+package ua.dscss2.miniauthplugin.velocity.handler;
 
 class FALLING_COORDS {
     public int X = 0;

@@ -1,4 +1,4 @@
-package ua.dscss2.miniauthplugin;
+package ua.dscss2.miniauthplugin.velocity;
 
 import com.google.inject.Inject;
 import com.velocitypowered.api.event.Subscribe;
@@ -14,9 +14,9 @@ import net.elytrium.limboapi.api.event.LoginLimboRegisterEvent;
 import net.elytrium.limboapi.api.LimboFactory;
 import net.elytrium.limboapi.api.player.GameMode;
 import org.slf4j.Logger;
-import ua.dscss2.miniauthplugin.handler.LoginHandler;
-import ua.dscss2.miniauthplugin.listener.TcpListener;
-import ua.dscss2.miniauthplugin.stats.Statistics;
+import ua.dscss2.miniauthplugin.velocity.handler.LoginHandler;
+import ua.dscss2.miniauthplugin.velocity.listener.TcpListener;
+import ua.dscss2.miniauthplugin.velocity.stats.Statistics;
 
 @Plugin(
         id = "miniauthplugin",

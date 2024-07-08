@@ -1,8 +1,8 @@
-package ua.dscss2.miniauthplugin.stats;
+package ua.dscss2.miniauthplugin.velocity.stats;
 
 import com.velocitypowered.api.scheduler.ScheduledTask;
 import com.velocitypowered.api.scheduler.Scheduler;
-import ua.dscss2.miniauthplugin.MiniAuthPlugin;
+import ua.dscss2.miniauthplugin.velocity.MiniAuthPlugin;
 
 import java.net.InetAddress;
 import java.util.HashMap;

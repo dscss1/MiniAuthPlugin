@@ -2,7 +2,7 @@ package ua.dscss2.miniauthplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import ua.dscss2.miniauthplugin.Configuration.PluginMessages;
-import ua.dscss2.miniauthplugin.Utils.database.database;
+import ua.dscss2.miniauthplugin.paper.Utils.database.database;
 //import ua.dscss2.miniauthplugin.Utils.database.database;
 //import ua.dscss2.miniauthplugin.commands.commandExecutor;
 
