@@ -1,0 +1,1 @@
+{"id":"miniauthplugin","name":"MiniAuthPlugin","version":"1.0","description":"Плагин на авторизацию","url":"http://ds-city.com","authors":["dscss2","ds-city"],"dependencies":[],"main":"ua.dscss2.miniauthplugin.velocity.MiniAuthPlugin"}
