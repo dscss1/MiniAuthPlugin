@@ -22,8 +22,10 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+    
     - name: su root
       run: sudo su
+      
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
